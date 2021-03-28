@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_upper_plan">
+
+    <fragment
+        android:id="@+id/navigation_upper_plan"
+        android:name="com.example.home5rounds.ui.upper.UpperPlanFragment"
+        android:label="@string/title_upper_plan"
+        tools:layout="@layout/fragment_upper" />
+
+    <fragment
+        android:id="@+id/navigation_lower_plan"
+        android:name="com.example.home5rounds.ui.lower.LowerPlanFragment"
+        android:label="@string/title_lower_plan"
+        tools:layout="@layout/fragment_lower" />
+
+</navigation>

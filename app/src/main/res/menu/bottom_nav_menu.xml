@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_upper_plan"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/title_upper_plan" />
+
+    <item
+        android:id="@+id/navigation_lower_plan"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="@string/title_lower_plan" />
+
+</menu>
